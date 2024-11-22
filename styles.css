@@ -1,0 +1,54 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #00796b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Lista de proyectos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    text-align: center;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Estilo de los enlaces */
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #004d40;
+    background: #b2dfdb;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background: #00796b;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
